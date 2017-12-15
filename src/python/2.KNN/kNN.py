@@ -291,7 +291,7 @@ def handwritingClassTest():
     """
     # 1. 导入数据
     hwLabels = []
-    trainingFileList = os.listdir("../../../input/2.KNN/trainingDigits") # load the training set
+    trainingFileList = os.listdir('../../../input/2.KNN/trainingDigits') # load the training set
     m = len(trainingFileList)
     trainingMat = zeros((m, 1024))
     # hwLabels存储0～9对应的index位置， trainingMat存放的每个位置对应的图片向量
